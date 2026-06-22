@@ -1,0 +1,30 @@
+2026-06-23 00:09:21 INFO  TC_001_AccountRegistrationTestCase:19 - ********Starting TC_001_AccountRegistrationTestCase********
+2026-06-23 00:09:25 ERROR TC_001_AccountRegistrationTestCase:91 - Test Failed.......
+2026-06-23 00:10:49 INFO  TC_001_AccountRegistrationTestCase:15 - ********Starting TC_001_AccountRegistrationTestCase********
+2026-06-23 00:10:53 INFO  TC_001_AccountRegistrationTestCase:22 - Clicked on Register button
+2026-06-23 00:10:54 INFO  TC_001_AccountRegistrationTestCase:28 - Entered the First Name
+2026-06-23 00:10:54 INFO  TC_001_AccountRegistrationTestCase:33 - Entered the last Name
+2026-06-23 00:10:54 INFO  TC_001_AccountRegistrationTestCase:39 - Entered the email
+2026-06-23 00:10:54 INFO  TC_001_AccountRegistrationTestCase:45 - Entered the contact Number
+2026-06-23 00:10:55 INFO  TC_001_AccountRegistrationTestCase:50 - Selected dropdown
+2026-06-23 00:10:55 INFO  TC_001_AccountRegistrationTestCase:55 - Selected Gender - Male
+2026-06-23 00:10:55 INFO  TC_001_AccountRegistrationTestCase:62 - Entered the Password
+2026-06-23 00:10:55 INFO  TC_001_AccountRegistrationTestCase:68 - Entered the Password again
+2026-06-23 00:10:55 INFO  TC_001_AccountRegistrationTestCase:73 - Clicked the privacy policy
+2026-06-23 00:10:56 INFO  TC_001_AccountRegistrationTestCase:78 - Clicked the Register button
+2026-06-23 00:10:56 INFO  TC_001_AccountRegistrationTestCase:83 - Verified the success message
+2026-06-23 00:10:56 INFO  TC_001_AccountRegistrationTestCase:92 - ********Finished TC_001_AccountRegistrationTestCase********
+2026-06-23 00:19:44 INFO  TC_001_AccountRegistrationTestCase:15 - ********Starting TC_001_AccountRegistrationTestCase********
+2026-06-23 00:19:48 INFO  TC_001_AccountRegistrationTestCase:22 - Clicked on Register button
+2026-06-23 00:19:48 INFO  TC_001_AccountRegistrationTestCase:28 - Entered the First Name
+2026-06-23 00:19:48 INFO  TC_001_AccountRegistrationTestCase:33 - Entered the last Name
+2026-06-23 00:19:49 INFO  TC_001_AccountRegistrationTestCase:39 - Entered the email
+2026-06-23 00:19:49 INFO  TC_001_AccountRegistrationTestCase:45 - Entered the contact Number
+2026-06-23 00:19:49 INFO  TC_001_AccountRegistrationTestCase:50 - Selected dropdown
+2026-06-23 00:19:49 INFO  TC_001_AccountRegistrationTestCase:55 - Selected Gender - Male
+2026-06-23 00:19:49 INFO  TC_001_AccountRegistrationTestCase:62 - Entered the Password
+2026-06-23 00:19:50 INFO  TC_001_AccountRegistrationTestCase:68 - Entered the Password again
+2026-06-23 00:19:50 INFO  TC_001_AccountRegistrationTestCase:73 - Clicked the privacy policy
+2026-06-23 00:19:50 INFO  TC_001_AccountRegistrationTestCase:78 - Clicked the Register button
+2026-06-23 00:19:50 INFO  TC_001_AccountRegistrationTestCase:83 - Verified the success message
+2026-06-23 00:19:50 INFO  TC_001_AccountRegistrationTestCase:92 - ********Finished TC_001_AccountRegistrationTestCase********

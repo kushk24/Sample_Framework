@@ -1,22 +1,20 @@
 package testcases;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import jdk.internal.org.jline.utils.Log;
 import pageObjects.AccountResistrationPage;
 import pageObjects.HomePage;
 import testbase.BaseClass;
 
 public class TC_001_AccountRegistrationTestCase extends BaseClass{
 
-	public WebDriver driver;
-
 	@Test
 	public void verify_AccountRegistrationPage() throws InterruptedException {
 		
 		logger.info("********Starting TC_001_AccountRegistrationTestCase********");
+		try
+		{
 		HomePage hp = new HomePage(driver);
 		// 1. Go to home page
 		Thread.sleep(4000);
@@ -83,7 +81,16 @@ public class TC_001_AccountRegistrationTestCase extends BaseClass{
 		String Msg = arp.getConfirmationMsg();
 		Assert.assertEquals(Msg, "Account Created Successfully");
 		logger.info("Verified the success message");
-
+		}
+		catch(Exception e)
+		{
+			logger.error("Test Failed.......");
+			logger.debug("Debug logs.....");
+			Assert.fail();
+		}
+		
+		logger.info("********Finished TC_001_AccountRegistrationTestCase********");
+		
 
 	}
 	

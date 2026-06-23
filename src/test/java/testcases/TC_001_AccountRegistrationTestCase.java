@@ -55,7 +55,8 @@ public class TC_001_AccountRegistrationTestCase extends BaseClass{
 		logger.info("Selected Gender - Male");
 
 		
-		String password = randomAlphaNumberic();
+		String password = randomAlphaNumberic()+"@";
+		System.out.println(password);
 		// Enter password
 		//arp.EnterPassword("Jd@12345");
 		arp.EnterPassword(password);

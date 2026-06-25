@@ -69,8 +69,8 @@ public class BaseClass {
 	
 	public String randomAlphaNumberic()
 	{
-		String generateString= RandomStringUtils.randomAlphabetic(3);
-		String generateNumber= RandomStringUtils.randomNumeric(5);
+		String generateString= RandomStringUtils.randomAlphabetic(2);
+		String generateNumber= RandomStringUtils.randomNumeric(2);
 		return (generateString+"@"+generateNumber);
 	}
 

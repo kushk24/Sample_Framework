@@ -8,14 +8,13 @@ public class HomePage extends BasePage {
 
 	public HomePage(WebDriver driver) {
 		super(driver);
-
 	}
-
-	@FindBy(xpath = "//a[normalize-space()='Register']")
-	WebElement Register;
-
-	public void ClickRegister() {
-		Register.click();
+	
+	@FindBy(xpath = "//button[normalize-space()='Sign Out']")
+	WebElement Logout;
+	
+	public void ClickLogout() {
+		Logout.click();
 	}
 
 }

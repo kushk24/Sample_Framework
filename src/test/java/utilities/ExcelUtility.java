@@ -6,23 +6,24 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.FillPatternType;
 import org.apache.poi.ss.usermodel.IndexedColors;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelUtility {
 
 	public FileInputStream fi;
 	public FileOutputStream fo;
-	public XSSFWorkbook workbook;
-	public XSSFSheet sheet;
-	public XSSFRow row;
-	public XSSFCell cell;
+	public Workbook workbook;
+	public Sheet sheet;
+	public Row row;
+	public Cell cell;
 	public CellStyle style;   
 	String path;
 	
@@ -33,48 +34,49 @@ public class ExcelUtility {
 		
 	public int getRowCount(String sheetName) throws IOException 
 	{
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
-		sheet=workbook.getSheet(sheetName);
-		int rowcount=sheet.getLastRowNum();
-		workbook.close();
-		fi.close();
-		return rowcount;		
+		try (FileInputStream localFi = new FileInputStream(path);
+				Workbook localWorkbook = WorkbookFactory.create(localFi)) {
+			Sheet localSheet = localWorkbook.getSheet(sheetName);
+			if (localSheet == null) {
+				return 0;
+			}
+			return localSheet.getLastRowNum();
+		}
 	}
 	
 	public int getCellCount(String sheetName,int rownum) throws IOException
 	{
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
-		sheet=workbook.getSheet(sheetName);
-		row=sheet.getRow(rownum);
-		int cellcount=row.getLastCellNum();
-		workbook.close();
-		fi.close();
-		return cellcount;
+		try (FileInputStream localFi = new FileInputStream(path);
+				Workbook localWorkbook = WorkbookFactory.create(localFi)) {
+			Sheet localSheet = localWorkbook.getSheet(sheetName);
+			if (localSheet == null) {
+				return 0;
+			}
+			Row localRow = localSheet.getRow(rownum);
+			if (localRow == null) {
+				return 0;
+			}
+			return localRow.getLastCellNum();
+		}
 	}
 	
 	
 	public String getCellData(String sheetName,int rownum,int colnum) throws IOException
 	{
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
-		sheet=workbook.getSheet(sheetName);
-		row=sheet.getRow(rownum);
-		cell=row.getCell(colnum);
-		
-		DataFormatter formatter = new DataFormatter();
-		String data;
-		try{
-		data = formatter.formatCellValue(cell); //Returns the formatted value of a cell as a String regardless of the cell type.
+		try (FileInputStream localFi = new FileInputStream(path);
+				Workbook localWorkbook = WorkbookFactory.create(localFi)) {
+			Sheet localSheet = localWorkbook.getSheet(sheetName);
+			if (localSheet == null) {
+				return "";
+			}
+			Row localRow = localSheet.getRow(rownum);
+			if (localRow == null) {
+				return "";
+			}
+			Cell localCell = localRow.getCell(colnum);
+			DataFormatter formatter = new DataFormatter();
+			return formatter.formatCellValue(localCell); // Returns formatted value regardless of cell type.
 		}
-		catch(Exception e)
-		{
-			data="";
-		}
-		workbook.close();
-		fi.close();
-		return data;
 	}
 	
 	public void setCellData(String sheetName,int rownum,int colnum,String data) throws IOException
@@ -82,72 +84,93 @@ public class ExcelUtility {
 		File xlfile=new File(path);
 		if(!xlfile.exists())    // If file not exists then create new file
 		{
-		workbook=new XSSFWorkbook();
-		fo=new FileOutputStream(path);
-		workbook.write(fo);
+			try (Workbook newWorkbook = WorkbookFactory.create(true);
+					FileOutputStream localFo = new FileOutputStream(path)) {
+				newWorkbook.write(localFo);
+			}
 		}
-				
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
-			
-		if(workbook.getSheetIndex(sheetName)==-1) // If sheet not exists then create new Sheet
-			workbook.createSheet(sheetName);
-		sheet=workbook.getSheet(sheetName);
-					
-		if(sheet.getRow(rownum)==null)   // If row not exists then create new Row
-				sheet.createRow(rownum);
-		row=sheet.getRow(rownum);
-		
-		cell=row.createCell(colnum);
-		cell.setCellValue(data);
-		fo=new FileOutputStream(path);
-		workbook.write(fo);		
-		workbook.close();
-		fi.close();
-		fo.close();
+
+		try (FileInputStream localFi = new FileInputStream(path);
+				Workbook localWorkbook = WorkbookFactory.create(localFi)) {
+			Sheet localSheet = localWorkbook.getSheet(sheetName);
+			if (localSheet == null) {
+				localSheet = localWorkbook.createSheet(sheetName);
+			}
+
+			Row localRow = localSheet.getRow(rownum);
+			if (localRow == null) {
+				localRow = localSheet.createRow(rownum);
+			}
+
+			Cell localCell = localRow.createCell(colnum);
+			localCell.setCellValue(data);
+
+			try (FileOutputStream localFo = new FileOutputStream(path)) {
+				localWorkbook.write(localFo);
+			}
+		}
 	}
 	
 	
 	public void fillGreenColor(String sheetName,int rownum,int colnum) throws IOException
 	{
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
-		sheet=workbook.getSheet(sheetName);
-		
-		row=sheet.getRow(rownum);
-		cell=row.getCell(colnum);
-		
-		style=workbook.createCellStyle();
-		
-		style.setFillForegroundColor(IndexedColors.GREEN.getIndex());
-		style.setFillPattern(FillPatternType.SOLID_FOREGROUND); 
-				
-		cell.setCellStyle(style);
-		workbook.write(fo);
-		workbook.close();
-		fi.close();
-		fo.close();
+		try (FileInputStream localFi = new FileInputStream(path);
+				Workbook localWorkbook = WorkbookFactory.create(localFi)) {
+			Sheet localSheet = localWorkbook.getSheet(sheetName);
+			if (localSheet == null) {
+				return;
+			}
+
+			Row localRow = localSheet.getRow(rownum);
+			if (localRow == null) {
+				return;
+			}
+
+			Cell localCell = localRow.getCell(colnum);
+			if (localCell == null) {
+				localCell = localRow.createCell(colnum);
+			}
+
+			CellStyle localStyle = localWorkbook.createCellStyle();
+			localStyle.setFillForegroundColor(IndexedColors.GREEN.getIndex());
+			localStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+			localCell.setCellStyle(localStyle);
+
+			try (FileOutputStream localFo = new FileOutputStream(path)) {
+				localWorkbook.write(localFo);
+			}
+		}
 	}
 	
 	
 	public void fillRedColor(String sheetName,int rownum,int colnum) throws IOException
 	{
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
-		sheet=workbook.getSheet(sheetName);
-		row=sheet.getRow(rownum);
-		cell=row.getCell(colnum);
-		
-		style=workbook.createCellStyle();
-		
-		style.setFillForegroundColor(IndexedColors.RED.getIndex());
-		style.setFillPattern(FillPatternType.SOLID_FOREGROUND);  
-		
-		cell.setCellStyle(style);		
-		workbook.write(fo);
-		workbook.close();
-		fi.close();
-		fo.close();
+		try (FileInputStream localFi = new FileInputStream(path);
+				Workbook localWorkbook = WorkbookFactory.create(localFi)) {
+			Sheet localSheet = localWorkbook.getSheet(sheetName);
+			if (localSheet == null) {
+				return;
+			}
+
+			Row localRow = localSheet.getRow(rownum);
+			if (localRow == null) {
+				return;
+			}
+
+			Cell localCell = localRow.getCell(colnum);
+			if (localCell == null) {
+				localCell = localRow.createCell(colnum);
+			}
+
+			CellStyle localStyle = localWorkbook.createCellStyle();
+			localStyle.setFillForegroundColor(IndexedColors.RED.getIndex());
+			localStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+			localCell.setCellStyle(localStyle);
+
+			try (FileOutputStream localFo = new FileOutputStream(path)) {
+				localWorkbook.write(localFo);
+			}
+		}
 	}
 	
 }

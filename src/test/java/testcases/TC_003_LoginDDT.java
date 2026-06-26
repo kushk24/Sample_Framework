@@ -10,7 +10,6 @@ Data is invalid - login success - test fail  - logout
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testbase.BaseClass;
 import utilities.DataProviders;
@@ -25,50 +24,36 @@ public class TC_003_LoginDDT extends BaseClass {
 		{
 		LoginPage lp = new LoginPage(driver);
 		
-		lp.EnterEmail(p.getProperty("Email"));
+		lp.EnterEmail(email);
 		logger.info("Entered Email");
 		
-		lp.EnterPassword(p.getProperty("Password"));
+		lp.EnterPassword(pwd);
 		logger.info("Entered Password");
 		
 		lp.ClickLogin();
 		logger.info("Clicked Login Button");
 		
-		String title= driver.getTitle();
-		
-		
-		HomePage hp = new HomePage(driver);
+		String currentUrl = driver.getCurrentUrl();
 		
 		if(exp.equalsIgnoreCase("Valid"))
 		{
-			if(title.equals("Let's Shop"))
-			{
-				hp.ClickLogout();
-				Assert.assertTrue(true);
-			}
-			else
-			{
-				Assert.assertTrue(false);
-			}
+			Assert.assertFalse(currentUrl.contains("/auth/login"), "Expected successful login, but still on login page.");
 		}
 		if(exp.equalsIgnoreCase("Invalid"))
 		{
-			if(title.equals("Let's Shop"))
-			{
-				hp.ClickLogout();
-				Assert.assertTrue(false);
-			}
-			else
-			{
-				Assert.assertTrue(true);
-			}
+			Assert.assertTrue(currentUrl.contains("/auth/login"), "Expected invalid login to stay on login page.");
 		}
 	}
 		catch(Exception e)
 		{
-			logger.error("Test Failed.......");
+			logger.error("Test Failed.......", e);
 			logger.debug("Debug logs.....");
 			Assert.fail();
+		}
+		finally
+		{
+			// Reset the application state before the next data set runs.
+			driver.get(p.getProperty("appURL"));
 		}
 		
 		logger.info("********Finished TC_003_LoginDDTTestCase********");

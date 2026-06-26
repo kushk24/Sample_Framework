@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Optional;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -24,7 +25,7 @@ public class BaseClass {
 	
 	@BeforeClass
 	@Parameters({"os","browser"})
-	public void setUp(String os, String br) throws IOException {
+	public void setUp(@Optional("Windows") String os, @Optional("chrome") String br) throws IOException {
 		
 		//Loading config.properties file
 		FileReader file = new FileReader("./src//test//resources//config.properties");
@@ -52,7 +53,9 @@ public class BaseClass {
 	
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+		if (driver != null) {
+			driver.quit();
+		}
 	}
 	
 	public String randomString()

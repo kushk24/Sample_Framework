@@ -23,10 +23,12 @@ public class LoginPage extends BasePage {
 	WebElement Register;
 
 	public void EnterEmail(String email) {
+		Email.clear();
 		Email.sendKeys(email);
 	}
 
 	public void EnterPassword(String pwd) {
+		Password.clear();
 		Password.sendKeys(pwd);
 	}
 

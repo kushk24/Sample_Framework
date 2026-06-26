@@ -10,7 +10,7 @@ public class HomePage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath = "//button[normalize-space()='Sign Out']")
+	@FindBy(xpath = "//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]")
 	WebElement Logout;
 	
 	public void ClickLogout() {

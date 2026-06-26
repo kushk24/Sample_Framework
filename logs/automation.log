@@ -69,3 +69,511 @@
 2026-06-25 22:30:43 INFO  TC_002_LoginTestCase:31 - Verified Login
 2026-06-25 22:30:44 INFO  TC_002_LoginTestCase:35 - Logged out from page.....
 2026-06-25 22:30:44 INFO  TC_002_LoginTestCase:45 - ********Finished TC_002_LoginTestCase********
+2026-06-26 23:21:47 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:21:47 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:21:47 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:21:47 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:21:48 INFO  TC_003_LoginDDT:74 - ********Finished TC_003_LoginDDTTestCase********
+2026-06-26 23:21:48 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:21:48 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:21:48 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:21:48 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:21:49 INFO  TC_003_LoginDDT:74 - ********Finished TC_003_LoginDDTTestCase********
+2026-06-26 23:21:49 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:21:49 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:21:49 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:21:49 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:21:50 INFO  TC_003_LoginDDT:74 - ********Finished TC_003_LoginDDTTestCase********
+2026-06-26 23:21:50 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:21:50 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:21:50 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:21:50 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:21:50 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:21:51 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:21:51 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:21:51 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:21:51 INFO  TC_003_LoginDDT:74 - ********Finished TC_003_LoginDDTTestCase********
+2026-06-26 23:21:51 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:21:51 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:21:51 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:21:52 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:22:59 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:22:59 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:23:00 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:23:00 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:23:10 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:23:10 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:23:10 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:23:11 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:23:11 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:23:21 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:23:21 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:23:21 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:23:21 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:23:21 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:23:31 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:23:31 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:23:32 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:23:32 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:23:32 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:23:42 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:23:42 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:23:42 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:23:43 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:23:43 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:23:53 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:23:53 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:23:53 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:23:53 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:23:54 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:24:04 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:28:22 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:28:23 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:28:23 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:28:23 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:28:33 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:28:33 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:28:33 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:28:33 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:28:33 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:28:43 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:28:43 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:28:44 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:28:44 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:28:44 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:28:54 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:28:54 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:28:54 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:28:54 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:28:54 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:29:04 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:29:04 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:29:05 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:29:05 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:29:05 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:29:15 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:29:15 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:29:15 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:29:15 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:29:15 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:29:25 ERROR TC_003_LoginDDT:69 - Test Failed.......
+2026-06-26 23:32:14 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:32:14 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:32:14 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:32:14 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:32:24 ERROR TC_003_LoginDDT:69 - Test Failed.......
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]"}
+  (Session info: chrome=149.0.7827.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9124ecc8aac356a9963aaa260bca818, findElement {using=xpath, value=//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kasaudha\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63544}, goog:processID: 46680, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63544/devtoo..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9124ecc8aac356a9963aaa260bca818
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at pageObjects.HomePage.ClickLogout(HomePage.java:17)
+	at testcases.TC_003_LoginDDT.verify_LoginDDT(TC_003_LoginDDT.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-06-26 23:32:24 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:32:24 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:32:25 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:32:25 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:32:35 ERROR TC_003_LoginDDT:69 - Test Failed.......
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]"}
+  (Session info: chrome=149.0.7827.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9124ecc8aac356a9963aaa260bca818, findElement {using=xpath, value=//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kasaudha\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63544}, goog:processID: 46680, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63544/devtoo..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9124ecc8aac356a9963aaa260bca818
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at pageObjects.HomePage.ClickLogout(HomePage.java:17)
+	at testcases.TC_003_LoginDDT.verify_LoginDDT(TC_003_LoginDDT.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-06-26 23:32:35 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:32:35 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:32:35 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:32:35 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:32:45 ERROR TC_003_LoginDDT:69 - Test Failed.......
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]"}
+  (Session info: chrome=149.0.7827.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9124ecc8aac356a9963aaa260bca818, findElement {using=xpath, value=//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kasaudha\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63544}, goog:processID: 46680, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63544/devtoo..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9124ecc8aac356a9963aaa260bca818
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at pageObjects.HomePage.ClickLogout(HomePage.java:17)
+	at testcases.TC_003_LoginDDT.verify_LoginDDT(TC_003_LoginDDT.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-06-26 23:32:45 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:32:46 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:32:46 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:32:46 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:32:56 ERROR TC_003_LoginDDT:69 - Test Failed.......
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]"}
+  (Session info: chrome=149.0.7827.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9124ecc8aac356a9963aaa260bca818, findElement {using=xpath, value=//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kasaudha\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63544}, goog:processID: 46680, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63544/devtoo..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9124ecc8aac356a9963aaa260bca818
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at pageObjects.HomePage.ClickLogout(HomePage.java:17)
+	at testcases.TC_003_LoginDDT.verify_LoginDDT(TC_003_LoginDDT.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-06-26 23:32:56 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:32:56 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:32:56 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:32:57 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:33:07 ERROR TC_003_LoginDDT:69 - Test Failed.......
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]"}
+  (Session info: chrome=149.0.7827.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9124ecc8aac356a9963aaa260bca818, findElement {using=xpath, value=//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kasaudha\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63544}, goog:processID: 46680, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63544/devtoo..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9124ecc8aac356a9963aaa260bca818
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at pageObjects.HomePage.ClickLogout(HomePage.java:17)
+	at testcases.TC_003_LoginDDT.verify_LoginDDT(TC_003_LoginDDT.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-06-26 23:33:07 INFO  TC_003_LoginDDT:23 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:33:07 INFO  TC_003_LoginDDT:29 - Entered Email
+2026-06-26 23:33:07 INFO  TC_003_LoginDDT:32 - Entered Password
+2026-06-26 23:33:07 INFO  TC_003_LoginDDT:35 - Clicked Login Button
+2026-06-26 23:33:17 ERROR TC_003_LoginDDT:69 - Test Failed.......
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]"}
+  (Session info: chrome=149.0.7827.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9124ecc8aac356a9963aaa260bca818, findElement {using=xpath, value=//button[normalize-space()='Sign Out' or normalize-space()='Logout' or contains(.,'Sign Out') or contains(.,'Logout')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kasaudha\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63544}, goog:processID: 46680, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63544/devtoo..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9124ecc8aac356a9963aaa260bca818
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at pageObjects.HomePage.ClickLogout(HomePage.java:17)
+	at testcases.TC_003_LoginDDT.verify_LoginDDT(TC_003_LoginDDT.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-06-26 23:34:24 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:34:24 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:34:24 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:34:25 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:34:25 INFO  TC_003_LoginDDT:59 - ********Finished TC_003_LoginDDTTestCase********
+2026-06-26 23:34:25 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:34:25 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:34:25 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:34:25 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:34:25 INFO  TC_003_LoginDDT:59 - ********Finished TC_003_LoginDDTTestCase********
+2026-06-26 23:34:25 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:34:26 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:34:26 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:34:26 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:34:26 INFO  TC_003_LoginDDT:59 - ********Finished TC_003_LoginDDTTestCase********
+2026-06-26 23:34:26 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:34:26 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:34:26 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:34:27 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:34:27 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:34:27 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:34:27 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:34:27 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:34:27 INFO  TC_003_LoginDDT:59 - ********Finished TC_003_LoginDDTTestCase********
+2026-06-26 23:34:27 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:34:27 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:34:28 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:34:28 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:35:32 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:35:33 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:35:33 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:35:33 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:35:33 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:35:33 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:35:34 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:35:34 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:35:34 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:35:34 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:35:34 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:35:34 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:35:34 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:35:35 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:35:35 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:35:35 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:35:35 INFO  TC_003_LoginDDT:59 - ********Finished TC_003_LoginDDTTestCase********
+2026-06-26 23:35:35 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:35:35 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:35:35 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:35:36 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:35:36 INFO  TC_003_LoginDDT:22 - ********Starting TC_003_LoginDDTTestCase********
+2026-06-26 23:35:36 INFO  TC_003_LoginDDT:28 - Entered Email
+2026-06-26 23:35:36 INFO  TC_003_LoginDDT:31 - Entered Password
+2026-06-26 23:35:36 INFO  TC_003_LoginDDT:34 - Clicked Login Button
+2026-06-26 23:35:36 INFO  TC_003_LoginDDT:59 - ********Finished TC_003_LoginDDTTestCase********

@@ -9,7 +9,7 @@ import testbase.BaseClass;
 
 public class TC_002_LoginTestCase extends BaseClass {
 	
-	@Test
+	@Test(groups={"Sanity","Master"})
 	public void verify_LoginPage() {
 		
 		logger.info("********Starting TC_002_LoginTestCase********");

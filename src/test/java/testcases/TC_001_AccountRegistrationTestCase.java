@@ -9,7 +9,7 @@ import testbase.BaseClass;
 
 public class TC_001_AccountRegistrationTestCase extends BaseClass{
 
-	@Test
+	@Test(groups={"Regression","Master"})
 	public void verify_AccountRegistrationPage() throws InterruptedException {
 		
 		logger.info("********Starting TC_001_AccountRegistrationTestCase********");

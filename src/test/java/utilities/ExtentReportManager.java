@@ -74,6 +74,7 @@ public class ExtentReportManager implements ITestListener {
 		
 	}
 
+	/*
 	public void onTestFailure(ITestResult result) {
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
@@ -88,6 +89,26 @@ public class ExtentReportManager implements ITestListener {
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
+	}
+	*/
+	
+	@Override
+	public void onTestFailure(ITestResult result) {
+
+	    test = extent.createTest(result.getTestClass().getName());
+	    test.assignCategory(result.getMethod().getGroups());
+
+	    test.log(Status.FAIL, result.getName() + " got failed");
+	    test.log(Status.FAIL, result.getThrowable());
+
+	    try {
+	        BaseClass base = (BaseClass) result.getInstance();
+	        String imgPath = base.captureScreen(result.getName());
+	        test.addScreenCaptureFromPath(imgPath);
+
+	    } catch (IOException e) {
+	        e.printStackTrace();
+	    }
 	}
 
 	public void onTestSkipped(ITestResult result) {
